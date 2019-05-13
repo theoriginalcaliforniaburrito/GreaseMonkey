@@ -1,0 +1,45 @@
+#navbar {
+    background-color: rgb(11, 83, 198);
+    padding: 15px;
+    min-width: 100vw;
+}
+
+h3 {
+    color: white;
+    font-family: 'Overpass', sans-serif;
+}
+
+.hero-header {
+    background-color: #32383e;
+    color: white;
+    padding: 10px;
+    font-family: 'Overpass', sans-serif;
+    min-width: 100vw;
+}
+
+#searchBar {
+    justify-content: center;
+    padding: 30px;
+}
+
+#invisible-button {
+    opacity: 0.0;
+}
+
+#monkey {
+    height: 50px;
+    width: 50px;
+}
+
+#email-container {
+    justify-content: center;
+}
+
+#contact-form {
+    justify-content: center;
+}
+
+#code-searchbar {
+    padding: 10px;
+    justify-content: center;
+}

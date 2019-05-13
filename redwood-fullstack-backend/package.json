@@ -1,0 +1,33 @@
+{
+  "name": "redwood-fullstack-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Sebastian Chu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "dotenv": "^7.0.0",
+    "event-emitter": "^0.3.5",
+    "express": "^4.16.4",
+    "mongo-morgan": "^2.0.3",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.20",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.0.0",
+    "nodemon": "^1.18.10",
+    "react-notifications": "^1.4.3"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.5.0",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "contactclient": "npm run start --prefix contactclient",
+    "dev": "concurrently \"npm run server\"\"npm run contactclient\""
+  }
+}
