@@ -1,13 +1,13 @@
 # GreaseMonkey
 
 ## About
-* LandMonk is a property management software that empowers landlords to self-manage their rental homes and apartments. 
+* GreaseMonkey is a client and appointment management application intended for mechanics to keep track of upcoming service dates for their client's vehicles. 
 
 ## My Developer Role
-* Added CRUD manipulation of back end database to client side application in React by contributing the following:
-* 1. Added ability to display lists of all tenants.
-* 2. Created a component to delete properties. 
-* 3. Added details page to properties with the ability to update data.
+* Created a database using Node.js and MongoDB as well as a client side through React:
+* 1. Created controllers for CRUD with a promise based HTTP client. 
+* 2. Used nodemailer to add function to contact clients and send messaged directly through application. 
+* 3. Added database of DTCs with embedded video player with steps to address technical vehicle issues. 
 
 
 ## Home Page/ All Clients 
